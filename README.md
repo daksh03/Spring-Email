@@ -13,4 +13,4 @@ The Java Mail support in Spring is organized as follows:
 | MimeMessagePreparator  | Callback interface for preparing complex MIME messages before sending.                            |
 | MimeMessageHelper      | Helper class for building MIME messages with attachments, inline images, and HTML content.       |
 
-Mustache Implementation in feature/mustache-implementation
+## Mustache Implementation in feature/mustache-implementation
