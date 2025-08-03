@@ -38,7 +38,7 @@ public class SendEmailService {
 
     public void sendEmail(String recipient, String subject) {
         try {
-            Resource resource = resourceLoader.getResource("classpath:templates/email.mustache");
+            Resource resource = resourceLoader.getResource("classpath:templates/format.html");
             Reader reader = new BufferedReader(new InputStreamReader(resource.getInputStream(), StandardCharsets.UTF_8));
             String template = new BufferedReader(reader).lines().collect(Collectors.joining("\n"));
 

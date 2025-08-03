@@ -15,7 +15,9 @@ public class EmailController {
 	@GetMapping("sendEmail")
 	public String sendEmail() {
 		
-		return sendEmailService.sendEmail("dakshchoudhary.844@gmail.com", "Spring Mail");
+		 sendEmailService.sendEmail("dakshchoudhary.844@gmail.com", "Spring Mail");
+		 
+		 return "Success";
 	}
 
 }
